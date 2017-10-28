@@ -1,0 +1,22 @@
+{
+  "name": "AndroidFoldersPlugin",
+  "version": "0.0.1",
+  "description": "Vérification de véhicule volé",
+  "cordova": {
+    "id": "fr.quickfix.androidfoldersplugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": {
+    "name": "Nicolas Grolleau",
+    "url": "https://stackoverflow.com/users/1335801/quickfix"
+  },
+  "homepage": "https://stackoverflow.com/users/1335801/quickfix"
+}

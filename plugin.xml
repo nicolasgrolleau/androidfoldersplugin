@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="fr.quickfix.androidfoldersplugin"
+    version="0.0.1">
+
+    <name>AndroidFoldersPlugin</name>
+
+    <description>Get android special folders path</description>
+
+    <license></license>
+	
+    <platform name="android">	
+		<js-module src="www/androidfoldersplugin.js" name="androidfoldersplugin">
+			<clobbers target="androidfoldersplugin" />
+		</js-module>
+
+		<source-file src="src/android/src/fr/quickfix/androidfoldersplugin/AndroidFoldersPlugin.java"
+            target-dir="src/fr/quickfix/androidfoldersplugin"/>
+		
+		<config-file target="res/xml/config.xml" parent="/widget">
+			<feature name="AndroidFoldersPlugin">
+				<param name="android-package" value="fr.quickfix.androidfoldersplugin.AndroidFoldersPlugin"/>
+			</feature>
+		</config-file>
+		
+	</platform>
+</plugin>
